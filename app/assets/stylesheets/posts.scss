@@ -2,16 +2,38 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.postall{
+body{
   font-family: 'Courier',sans-serif;
+  background-color: rgb(31, 189, 0);
 }
+
+h1{
+  color:rgb(255, 255, 255);
+  text-align: center;
+
+}
+.postall{
+  
+width: 750px;
+margin: 0 auto;
+background-color: rgb(255, 255, 255);
+}
+
 
 .content{
   font-size: 18px;
-  color: rgb(123, 194, 52);
-
+  color:  rgb(88, 94, 78);
+  border-bottom : 1.5px solid rgb(31, 189, 0)
 }
-
+.content1{
+  margin-left: 10px;
+}
 .created{
   color: rgb(88, 94, 78);
+  text-align: center;
+}
+
+.footerdiv{
+  background-color: rgb(255, 94, 0);
+  height: 80px;
 }
