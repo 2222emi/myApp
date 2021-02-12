@@ -1,8 +1,13 @@
 <body>
+<div class = "indextop">
 <h1>けんけんぷち掲示板</h1>
+</div>
+
+<div class = "newpost">
+<%= link_to '新規投稿', '/posts/new'%>
+</div>
+
 <div class = "postall">
-
-
 <% @posts.each do |post| %>
 
 <div class = "created">
@@ -19,7 +24,7 @@
 <% end %>
 </div>
 
-<%= link_to '新規投稿', '/posts/new'%>
+
 
 <div class = "footerdiv">
 
